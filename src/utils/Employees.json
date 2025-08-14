@@ -1,0 +1,335 @@
+{
+  "employees": {
+    "emp": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "employee1@example.com",
+        "password": "123",
+        "totalTasks": 4,
+        "taskStats": {
+          "active": 1,
+          "newTask": 2,
+          "completed": 1,
+          "failed": 1
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Prepare sales report",
+            "description": "Compile sales data for Q1",
+            "category": "Reports",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Update client database",
+            "description": "Add new clients to CRM",
+            "category": "Database",
+            "date": "2025-08-10"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Fix login bug",
+            "description": "Resolve authentication error on login page",
+            "category": "Development",
+            "date": "2025-08-08"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "employee2@example.com",
+        "password": "abc",
+        "totalTasks": 5,
+        "taskStats": {
+          "active": 1,
+          "newTask": 2,
+          "completed": 1,
+          "failed": 1
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Design landing page",
+            "description": "Create a responsive landing page mockup",
+            "category": "Design",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Update brand guidelines",
+            "description": "Add new color palette to the brand document",
+            "category": "Branding",
+            "date": "2025-08-09"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Test new checkout flow",
+            "description": "Check for errors during payment processing",
+            "category": "QA",
+            "date": "2025-08-08"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Michael Brown",
+        "email": "employee3@example.com",
+        "password": "321",
+        "totalTasks": 3,
+        "taskStats": {
+          "active": 1,
+          "newTask": 1,
+          "completed": 0,
+          "failed": 1
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Write blog article",
+            "description": "Draft article on product launch",
+            "category": "Content",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Post on social media",
+            "description": "Share updates on Facebook and LinkedIn",
+            "category": "Marketing",
+            "date": "2025-08-10"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Schedule webinar",
+            "description": "Set up webinar with guest speaker",
+            "category": "Events",
+            "date": "2025-08-08"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "email": "employee4@example.com",
+        "password": "pass",
+        "totalTasks": 4,
+        "taskStats": {
+          "active": 1,
+          "newTask": 1,
+          "completed": 1,
+          "failed": 1
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Inventory check",
+            "description": "Review stock levels for warehouse",
+            "category": "Logistics",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Order supplies",
+            "description": "Purchase new office equipment",
+            "category": "Procurement",
+            "date": "2025-08-09"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Audit safety procedures",
+            "description": "Ensure compliance with safety rules",
+            "category": "Compliance",
+            "date": "2025-08-07"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "David Wilson",
+        "email": "employee5@example.com",
+        "password": "111",
+        "totalTasks": 3,
+        "taskStats": {
+          "active": 1,
+          "newTask": 1,
+          "completed": 1,
+          "failed": 0
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Customer support calls",
+            "description": "Handle pending customer complaints",
+            "category": "Support",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Follow up on leads",
+            "description": "Contact leads from marketing campaign",
+            "category": "Sales",
+            "date": "2025-08-09"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Prepare presentation",
+            "description": "Slides for upcoming client pitch",
+            "category": "Presentations",
+            "date": "2025-08-08"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Sophia Martinez",
+        "email": "employee6@example.com",
+        "password": "000",
+        "totalTasks": 3,
+        "taskStats": {
+          "active": 1,
+          "newTask": 1,
+          "completed": 1,
+          "failed": 1
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Code review",
+            "description": "Review pull requests for backend service",
+            "category": "Development",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Optimize database queries",
+            "description": "Improve performance of analytics queries",
+            "category": "Database",
+            "date": "2025-08-09"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Update API docs",
+            "description": "Add new endpoints documentation",
+            "category": "Documentation",
+            "date": "2025-08-07"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Chris Johnson",
+        "email": "employee7@example.com",
+        "password": "xyz",
+        "totalTasks": 4,
+        "taskStats": {
+          "active": 1,
+          "newTask": 2,
+          "completed": 1,
+          "failed": 0
+        },
+        "tasks": [
+          {
+            "active": true,
+            "newTask": true,
+            "completed": false,
+            "failed": false,
+            "title": "Team training session",
+            "description": "Conduct onboarding for new hires",
+            "category": "Training",
+            "date": "2025-08-12"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": true,
+            "failed": false,
+            "title": "Prepare feedback report",
+            "description": "Summarize feedback from last workshop",
+            "category": "Reports",
+            "date": "2025-08-09"
+          },
+          {
+            "active": false,
+            "newTask": false,
+            "completed": false,
+            "failed": true,
+            "title": "Set up new laptops",
+            "description": "Install required software for new employees",
+            "category": "IT Support",
+            "date": "2025-08-08"
+          }
+        ]
+      }
+    ],
+    "admin": [
+      {
+        "id": 1,
+        "name": "Alice Anderson",
+        "email": "admin1@example.com",
+        "password": "admin123"
+      },
+      {
+        "id": 2,
+        "name": "Bob Roberts",
+        "email": "admin2@example.com",
+        "password": "admin234"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+import React from 'react'
+
+const AcceptTask = ({tasks}) => {
+  console.log(tasks)
+  return (
+    <div className='flex-shrink-0 h-full w-[300px] bg-pink-400 rounded-xl p-3'>
+        <div className='flex justify-between items-center  text-sm'>
+            <h3 className='bg-red-500 px-4 py-1 rounded  text-sm font-medium cursor-pointer'>{tasks.category}</h3>
+            <h4 className='font-medium'>{tasks.date}</h4>
+        </div>
+        <h2 className='mt-5 text-xl font-semibold '>{tasks.title}</h2>
+        <p className='mt-2 text-lg'>{tasks.description}</p>
+        <div className='flex flex-col mt-4'>
+            <button className='bg-emerald-400 my-1 py-1 px-2 rounded cursor-pointer'>Mark as Completed</button>
+            <button className='bg-red-400 py-1 px-2 my-1 rounded cursor-pointer'>Mark as Failed</button>
+        </div>    
+      </div>
+  )
+}
+
+export default AcceptTask
