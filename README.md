@@ -30,7 +30,7 @@ It is designed for those learning **React JS**, **JavaScript**, and **frontend d
 - **Context API**
 - **React Hooks** (`useState`, `useContext`, etc.)
 - **LocalStorage API**
-- **CRUD Operatins**
+- **CRUD Operations**
 ---
 
 ## 🎯 Key Features
